@@ -31,5 +31,5 @@ void CallbyVal(int i,int count){
 }
 void CallbyRef(int i,int* pcount){
     (*pcount)++;
-    printf("\t[%2dth CallbyVal] Valude of count : %d,Address of count:%ld\n",i,*pcount,pcount;)
+    printf("\t[%2dth CallbyVal] Valude of count : %d,Address of count:%ld\n",i,*pcount,pcount);
 }
